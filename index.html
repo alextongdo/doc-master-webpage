@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:100,200,300,400,500,600,700,800,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>No Longer ISPO Assistant</title>
+</head>
+
+<body>
+  <main>
+    <section class="hero flex-row">
+      <div class="hero-text">
+        <h1>No Longer ISPO Assistant</h1>
+        <p>
+          An end-to-end question answering tool that can answer any questions about your PDFs using personalized AI
+          models.
+          Unlike other AI services, all data and models are never exposed to the open internet making this application
+          perfect for security sensitive documents.
+        </p>
+        <div id="navbar" class="flex-row">
+          <a href="https://shangjingbo1226.github.io/lab/" class="flex-row"
+            style="gap: 0.3em; text-decoration: none; color: inherit">
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="font: 400 18px 'Noto Serif', sans-serif;">Shang Data Lab, UCSD</p>
+          </a>
+          <a href="https://shangjingbo1226.github.io/lab/" style="color: inherit;">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="flex-center">
+        <img src="static/img/computer-homepage.svg" width="100%">
+      </div>
+    </section>
+    <section class="section-container flex-column">
+      <div class="section-header flex-row">
+        <span>Step 1: &nbspAnnotate</span>
+        <hr>
+        <img src="static/img/annotate-icon.svg" width="90px">
+      </div>
+      <div class="section-text">
+        Upload a few PDFs and label the answers to some questions to give your AI model some examples to learn from.
+        Mark the expected answer to a question by highlighting text in the document you uploaded!
+      </div>
+      <div class="section-img flex-row">
+        <div style="flex: 1;">
+          <img src="static/img/annotate-upload.png" width="100%">
+        </div>
+        <i class="fa-solid fa-arrow-right" style="font-size: 32px; text-align: center; padding: 0.5em;"></i>
+        <div style="flex: 3;">
+          <img src="static/img/annotate-webpage.png" width="100%">
+        </div>
+      </div>
+    </section>
+    <section class="section-container flex-column">
+      <div class="section-header flex-row">
+        <img src="static/img/train-icon.svg" width="90px">
+        <hr>
+        <span>Step 2: &nbspTrain</span>
+      </div>
+      <div class="section-text">
+        Choose from a few different base architectures to train your personalized model!
+        For example, if your answers occur in a regular layout on your documents, choose a layout model such as Impira,
+        which takes into account the position of each word.
+      </div>
+      <div class="section-img flex-row">
+        <div style="flex: 3;">
+          <img src="static/img/train-webpage.png" width="100%">
+        </div>
+        <i class="fa-solid fa-arrow-right" style="font-size: 32px; text-align: center; padding: 0.5em;"></i>
+        <div style="flex: 1;">
+          <img src="static/img/train-finish.png" width="100%">
+        </div>
+      </div>
+    </section>
+    <section class="section-container flex-column">
+      <div class="section-header flex-row">
+        <span>Step 3: &nbspPredict</span>
+        <hr>
+        <img src="static/img/predict-icon.svg" width="90px">
+      </div>
+      <div class="section-text">
+        Pick one of the models you've previously trained to answer some questions about an unseen PDF.
+        The model's predictions will be highlighted on the document and shown in the table.
+        Click on rows of the table to skip to page where that prediction occurs on the PDF.
+      </div>
+      <div class="section-img flex-row">
+        <div style="flex: 1;">
+          <img src="static/img/predict-select.png" width="100%">
+        </div>
+        <i class="fa-solid fa-arrow-right" style="font-size: 32px; text-align: center; padding: 0.5em;"></i>
+        <div style="flex: 3;">
+          <img src="static/img/predict-webpage.png" width="100%">
+        </div>
+      </div>
+    </section>
+  </main>
+  <section id="footer" class="flex-center">
+    <p>Designed and written by <a href="https://github.com/alextongdo" style="color: inherit;"><strong>Alex
+          Nguyen</strong></a>.</p>
+  </section>
+</body>
+
+</html>

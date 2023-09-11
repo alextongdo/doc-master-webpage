@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px dashed red; */
+}
+
+body {
+  background-color: #e8eaed;
+  font: 600 16px "Noto Serif", sans-serif
+}
+
+main section:last-child {
+  padding-bottom: 40px;
+}
+
+.hero {
+  height: 80vh;
+  background-color: #b5becd;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero>div {
+  flex: 1;
+  height: fit-content;
+}
+
+.hero>div>h1 {
+  font: 700 48px "Noto Serif", sans-serif;
+}
+
+.hero>div>p {
+  font: 400 18px "Inter", sans-serif;
+}
+
+#navbar {
+  font-size: 22px;
+  padding-top: 0.4em;
+  gap: 0.5em;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-container {
+  height: fit-content;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  gap: 10px
+}
+
+.section-header {
+  font: 600 36px "Noto Serif", sans-serif;
+  display: flex;
+}
+
+.section-header>hr {
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  border: 2px solid black !important;
+}
+
+.section-text {
+  font: 400 18px "Inter", sans-serif;
+}
+
+#footer {
+  height: 10vh;
+  background-color: #b5becd;
+  padding-left: 80px;
+  padding-right: 80px;
+  font: 400 14px "Inter", sans-serif;
+}
