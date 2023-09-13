@@ -79,8 +79,8 @@ main section:last-child {
 
 .section-header>hr {
   flex-grow: 1;
-  margin-top: 5px;
-  border: 2px solid black !important;
+  margin-top: 0.3vw;
+  border: 0.15vw solid black !important;
 }
 
 .section-text {
