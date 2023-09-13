@@ -16,6 +16,7 @@ main section:last-child {
 .hero {
   height: 80vh;
   min-height: fit-content;
+  max-height: 60vw;
   background-color: #b5becd;
   padding-left: 80px;
   padding-right: 80px;
@@ -27,17 +28,21 @@ main section:last-child {
 }
 
 .hero>div>h1 {
-  font: 700 48px "Noto Serif", sans-serif;
+  font: 700 3.3vw "Noto Serif", sans-serif;
 }
 
 .hero>div>p {
-  font: 400 18px "Inter", sans-serif;
+  font: 400 1.3vw "Inter", sans-serif;
 }
 
 #navbar {
-  font-size: 22px;
   padding-top: 0.4em;
   gap: 0.5em;
+  font: 400 1.3vw 'Noto Serif', sans-serif;
+}
+
+#navbar > a > i {
+  font-size: 1.6vw;
 }
 
 .flex-center {
@@ -67,20 +72,40 @@ main section:last-child {
 }
 
 .section-header {
-  font: 600 36px "Noto Serif", sans-serif;
+  font: 600 2.5vw "Noto Serif", sans-serif;
   display: flex;
+  gap: 20px;
 }
 
 .section-header>hr {
   flex-grow: 1;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 5px;
   border: 2px solid black !important;
 }
 
 .section-text {
-  font: 400 18px "Inter", sans-serif;
+  font: 400 1.25vw "Inter", sans-serif;
+}
+
+.contributor {
+  flex: 1;
+  font-size: 0.8vw;
+  text-align: center;
+}
+
+.contributor > img {
+  border: 1px solid #d2d4d6;
+  padding: 0.5em;
+}
+
+.contributor > h1 {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.contributor > p {
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
 }
 
 #footer {
