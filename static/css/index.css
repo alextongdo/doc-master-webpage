@@ -18,8 +18,8 @@ main section:last-child {
   min-height: fit-content;
   max-height: 60vw;
   background-color: #b5becd;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
 }
 
 .hero>div {
@@ -65,8 +65,8 @@ main section:last-child {
 
 .section-container {
   height: fit-content;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
   padding-top: 40px;
   gap: 10px
 }
@@ -111,7 +111,7 @@ main section:last-child {
 #footer {
   height: 10vh;
   background-color: #b5becd;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
   font: 400 14px "Inter", sans-serif;
 }
