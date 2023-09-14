@@ -10,7 +10,7 @@ body {
 }
 
 main section:last-child {
-  padding-bottom: 40px;
+  padding-bottom: 2.8vw;
 }
 
 .hero {
@@ -67,14 +67,14 @@ main section:last-child {
   height: fit-content;
   padding-left: 5.55vw;
   padding-right: 5.55vw;
-  padding-top: 40px;
-  gap: 10px
+  padding-top: 2.8vw;
+  gap: 0.7vw;
 }
 
 .section-header {
   font: 600 2.5vw "Noto Serif", sans-serif;
   display: flex;
-  gap: 20px;
+  gap: 1.4vw;
 }
 
 .section-header>hr {
