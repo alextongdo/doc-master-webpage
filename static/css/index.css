@@ -41,6 +41,11 @@ main section:last-child {
   font: 400 1.3vw 'Noto Serif', sans-serif;
 }
 
+#navbar > a:hover {
+  background-color: #808997;
+  border-radius: 0.2em;
+}
+
 #navbar > a > i {
   font-size: 1.6vw;
 }
